@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: master  # 您的分支名
+    upstream: wukongdaily:master  # 上游分支
+    mergeMethod: merge
+    mergeUnstable: false
